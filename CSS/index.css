@@ -1,0 +1,72 @@
+figcaption{
+    margin: 0;
+    padding: 0;
+    border: 0;}
+figcaption{
+    text-align: center;
+    font-weight: bold;
+}
+main p {
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    p {
+        font-size: .8em;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+.homecontact {
+    text-decoration: none;
+    font-weight: light;
+    font-size: xx-large;
+    color: #ccc;
+}
+a {
+    display: flex;
+    justify-content: center;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+main p {
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    p {
+        font-size: .8em;
+    }
+}
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+figure {
+    margin: 20px 0;
+    text-align: center;
+}

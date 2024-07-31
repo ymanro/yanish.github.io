@@ -1,0 +1,25 @@
+/* Responsive Design */
+@media (max-width: 600px) {
+    /* Mobile styles */
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* Tablet styles */
+}
+
+@media (min-width: 1025px) {
+    /* Desktop styles */
+}
+
+/* General styles */
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+strong {
+    font-weight: bold;
+}
