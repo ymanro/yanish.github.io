@@ -23,7 +23,52 @@
         </ul>
     </nav>
     <main>
-       
+                <div class="container">
+                    <div id="branding">
+                        <h1>Electrical Drill Company</h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="faqs.html">FAQs</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        
+            <div class="container">
+                <section class="faq-section">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq">
+                        <h3>What is the warranty period for your drills?</h3>
+                        <p>Our drills come with a 2-year warranty covering all manufacturing defects.</p>
+                    </div>
+                    <div class="faq">
+                        <h3>How do I register my product for warranty?</h3>
+                        <p>You can register your product on our website by filling out the warranty registration form with your purchase details.</p>
+                    </div>
+                    <div class="faq">
+                        <h3>What should I do if my drill stops working?</h3>
+                        <p>If your drill stops working, please contact our customer service department. They will guide you through the troubleshooting process and arrange for repairs if necessary.</p>
+                    </div>
+                    <div class="faq">
+                        <h3>Can I purchase replacement parts for my drill?</h3>
+                        <p>Yes, replacement parts are available for purchase on our website under the 'Parts and Accessories' section.</p>
+                    </div>
+                </section>
+            </div>
+        
+            <script>
+                document.querySelectorAll('.faq h3').forEach(faq => {
+                    faq.addEventListener('click', () => {
+                        faq.nextElementSibling.style.display = faq.nextElementSibling.style.display === 'none' ? 'block' : 'none';
+                    });
+                });
+            </script>
+        </body>
+        </html>
+        
     </main>
     <footer>
         <p>&copy; Copyright 2024. All Rights Reserved.<br>
